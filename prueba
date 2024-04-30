@@ -62,13 +62,13 @@ print(df_sorted.head(3))
 
 import matplotlib.pyplot as plt
 
-# Graficar el scatter plot y guardar como imagen
+# visualizando el scatter plot:
+
 plt.figure(figsize=(10, 6))
 plt.scatter(df['Duración (minutos)'], df['Popularidad'], color='blue', alpha=0.7)
 plt.title('Relación entre Duración y Popularidad de Canciones')
 plt.xlabel('Duración (minutos)')
 plt.ylabel('Popularidad')
 plt.grid(True)
-# Guardar la imagen como scatter_plot.png
-plt.savefig('scatter_plot.png')  
-plt.close()
+plt.show()
+print
